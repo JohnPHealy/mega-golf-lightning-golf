@@ -10,15 +10,20 @@ public class BallControl : MonoBehaviour
     public Transform IndicatorLine;
 
     Vector3 point;
-    Camera cam;
+    public Transform cam;
+    public Transform ActualCam;
 
     Vector3 target;
 
-    bool isAiming;
+    bool isAiming = true;
 
     public Slider power;
+    public Slider AngleSlider;
+    public Slider CameraAngle;
     public Button ShootButton;
     public Text Shots;
+    public Text Percentage;
+    public Text AngleText;
 
     public float Power;
 
@@ -30,13 +35,14 @@ public class BallControl : MonoBehaviour
 
     private void Start()
     {
-        cam = Camera.main;
         rb = GetComponent<Rigidbody>();
+
+        transform.position = GameObject.FindGameObjectWithTag("Spawn").transform.position;
     }
 
     private void Update()
     {
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButtonDown(1))
         {
             if (isAiming)
             {
@@ -75,22 +81,45 @@ public class BallControl : MonoBehaviour
             }
 
             Indicator.position = target;
-            IndicatorLine.position = transform.position;
+            
             IndicatorLine.LookAt(Indicator.position);
-            IndicatorLine.rotation = Quaternion.Euler(0, IndicatorLine.rotation.eulerAngles.y, IndicatorLine.rotation.eulerAngles.z);
+            
         }
+        IndicatorLine.position = transform.position;
+        IndicatorLine.rotation = Quaternion.Slerp(IndicatorLine.rotation, Quaternion.Euler(-AngleSlider.value, IndicatorLine.rotation.eulerAngles.y, IndicatorLine.rotation.eulerAngles.z), 0.1f);
+
 
         Shots.text = "Shots: " + shots;
 
-        cam.transform.position = transform.position + Offset;
+        Percentage.text = (power.value * 100).ToString("0") + "%";
+
+        AngleText.text = AngleSlider.value.ToString("0") + " degrees";
+
+        cam.transform.localRotation = Quaternion.Lerp(cam.transform.localRotation, Quaternion.Euler(0, -CameraAngle.value, 0), 0.1f);
+        cam.transform.position = Vector3.Lerp(cam.transform.position, transform.position, 0.1f);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Die"))
+        {
+            Reset();
+        }
+    }
     public void Shoot()
     {
+        rb.drag = 0.2f;
         transform.rotation = IndicatorLine.rotation;
         rb.AddForce(transform.forward * power.value * Power, ForceMode.Impulse);
         isAiming = false;
 
         shots++;
+    }
+
+
+    public void Reset()
+    {
+        rb.drag = 10;
+        transform.position = GameObject.FindGameObjectWithTag("Spawn").transform.position + new Vector3(0, 1, 0);
     }
 }
