@@ -35,7 +35,7 @@ public class BallControl : MonoBehaviour
 
     float cameraZ = -12;
     float cameraYValue = 3;
-    AnimationCurve cameraY;
+    public AnimationCurve cameraY;
 
     private void Start()
     {
