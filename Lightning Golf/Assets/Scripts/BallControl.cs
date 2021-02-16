@@ -33,6 +33,10 @@ public class BallControl : MonoBehaviour
 
     public Vector3 Offset;
 
+    float cameraZ = -12;
+    float cameraYValue = 3;
+    AnimationCurve cameraY;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -97,6 +101,22 @@ public class BallControl : MonoBehaviour
 
         cam.transform.localRotation = Quaternion.Lerp(cam.transform.localRotation, Quaternion.Euler(0, -CameraAngle.value, 0), 0.1f);
         cam.transform.position = Vector3.Lerp(cam.transform.position, transform.position, 0.1f);
+
+        Debug.Log(Input.mouseScrollDelta);
+        if (Input.mouseScrollDelta.y > 0 && cameraZ < -2)
+        {
+            cameraZ += Input.mouseScrollDelta.magnitude;
+        }
+
+        if (Input.mouseScrollDelta.y < 0 && cameraZ > -35)
+        {
+            cameraZ -= Input.mouseScrollDelta.magnitude;
+        }
+
+        cameraYValue = cameraY.Evaluate(cameraZ);
+
+        Vector3 CamNewPos = new Vector3(0, cameraYValue, cameraZ);
+        ActualCam.localPosition = Vector3.Lerp(ActualCam.localPosition, CamNewPos, 0.2f);
     }
 
     private void OnCollisionEnter(Collision collision)
