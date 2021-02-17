@@ -21,7 +21,11 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 9}
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 542}
+=======
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> parent of d62c590 (Tutorial n dat)
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -74,7 +78,11 @@ MonoBehaviour:
   m_MinSize: {x: 332, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 1223
+=======
+  controlID: 5574
+>>>>>>> parent of d62c590 (Tutorial n dat)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -98,7 +106,11 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 83
+=======
+  controlID: 5571
+>>>>>>> parent of d62c590 (Tutorial n dat)
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +163,7 @@ MonoBehaviour:
   - {fileID: 21}
   - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +188,11 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 84
+=======
+  controlID: 5572
+>>>>>>> parent of d62c590 (Tutorial n dat)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,9 +270,15 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
+<<<<<<< HEAD
   - {fileID: 27}
   m_MainToolbar: {fileID: 27}
   m_LastLoadedLayoutName: 
+=======
+  - {fileID: 28}
+  m_MainToolbar: {fileID: 28}
+  m_LastLoadedLayoutName: David
+>>>>>>> parent of d62c590 (Tutorial n dat)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,7 +324,11 @@ MonoBehaviour:
   m_MinSize: {x: 478, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 112
+=======
+  controlID: 5573
+>>>>>>> parent of d62c590 (Tutorial n dat)
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,7 +353,11 @@ MonoBehaviour:
   m_MinSize: {x: 478, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 113
+=======
+  controlID: 92
+>>>>>>> parent of d62c590 (Tutorial n dat)
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -612,23 +642,30 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Mark Lambe\Desktop\College\Unity\projects\MiniGolf\mega-golf-lightning-golf\Lightning
     Golf
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 14}
     m_SelectedIDs: d2410000
     m_LastClickedID: 16850
     m_ExpandedIDs: 00000000c441000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 8c3b0000
+    m_LastClickedID: 15244
+    m_ExpandedIDs: 000000008c3b000000ca9a3b
+>>>>>>> parent of d62c590 (Tutorial n dat)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,7 +693,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c4410000
+=======
+    m_ExpandedIDs: 000000008c3b0000
+>>>>>>> parent of d62c590 (Tutorial n dat)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +725,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c62300009e3c000000000000163f0000824400007a440000
+=======
+    m_ExpandedInstanceIDs: c62300009e3c0000
+>>>>>>> parent of d62c590 (Tutorial n dat)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,9 +785,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 0c4e0000
       m_LastClickedID: 0
       m_ExpandedIDs: 345bffff4e5cffff625cffff925effff4262ffff5e63ffffec93ffff3cc0ffff1aeffffffcf5ffff0af9ffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 04c7ffffa0efffff02f1ffff5cf3ffff3cf4ffff3ef4ffff56fbffffe8390000
+>>>>>>> parent of d62c590 (Tutorial n dat)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -758,7 +809,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 2}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -802,9 +853,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -109.68585, y: -67.775505, z: 2.1587563}
     speed: 2
     m_Value: {x: -109.68585, y: -67.775505, z: 2.1587563}
+=======
+    m_Target: {x: -26.20203, y: 6.625741, z: -55.87867}
+    speed: 2
+    m_Value: {x: -26.20203, y: 6.625741, z: -55.87867}
+>>>>>>> parent of d62c590 (Tutorial n dat)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -851,6 +908,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.23219234, y: -0.66795915, z: 0.2321084, w: 0.66792774}
     speed: 2
     m_Value: {x: 0.23318405, y: -0.66758204, z: 0.23310032, w: 0.66755056}
@@ -858,10 +916,19 @@ MonoBehaviour:
     m_Target: 94.34554
     speed: 2
     m_Value: 94.34554
-  m_Ortho:
-    m_Target: 0
+=======
+    m_Target: {x: 0, y: -0.7071068, z: -0, w: 0.7071068}
     speed: 2
-    m_Value: 0
+    m_Value: {x: -0.00000020381931, y: -0.70711607, z: 0.0000011548345, w: 0.7070976}
+  m_Size:
+    m_Target: 63.8945
+    speed: 2
+    m_Value: 63.8945
+>>>>>>> parent of d62c590 (Tutorial n dat)
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 0.001
     m_SpeedNormalized: 0
@@ -875,7 +942,7 @@ MonoBehaviour:
     m_FarClip: 1000
     m_DynamicClip: 0
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.16458355, y: -0.46124706, z: -0.0875132, w: -0.8674744}
+  m_LastSceneViewRotation: {x: 0.18253712, y: 0.414102, z: -0.085154705, w: 0.8876663}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
