@@ -1378,7 +1378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7959647147144859494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.67, z: -65.76}
+  m_LocalPosition: {x: -8.49, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7959647147939464400}
@@ -1470,8 +1470,32 @@ MonoBehaviour:
   Shots: {fileID: 7959647147815603751}
   Percentage: {fileID: 667636587}
   AngleText: {fileID: 260215311}
-  Power: 50
+  Power: 35
   Offset: {x: -10, y: 5, z: -5}
+  cameraY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -40
+      value: 15
+      inSlope: -0.23847143
+      outSlope: -0.23847143
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.11428572
+    - serializedVersion: 3
+      time: -2
+      value: 1
+      inSlope: -0.20029093
+      outSlope: -0.20029093
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15776397
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!54 &7959647147144859512
 Rigidbody:
   m_ObjectHideFlags: 0
