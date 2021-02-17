@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/Mark 2.unity
-=======
-- path: Assets/Scenes/David 2.unity
->>>>>>> parent of d62c590 (Tutorial n dat)
-=======
-- path: Assets/Scenes/David 2.unity
->>>>>>> parent of d62c590 (Tutorial n dat)
+- path: Assets/Scenes/Mark 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

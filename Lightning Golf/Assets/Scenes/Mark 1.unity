@@ -524,6 +524,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &258473951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7959647147327392795, guid: e3a72c8b3d547524296efde0834e068b, type: 3}
+  m_PrefabInstance: {fileID: 1929114541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &288332788
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +719,11 @@ Transform:
   m_Father: {fileID: 12275607}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &360562975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7959647147748149593, guid: e3a72c8b3d547524296efde0834e068b, type: 3}
+  m_PrefabInstance: {fileID: 1929114541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &692663178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1229,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1351581715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7959647147144859494, guid: e3a72c8b3d547524296efde0834e068b, type: 3}
+  m_PrefabInstance: {fileID: 1929114541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1351581716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351581715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9609dcc5488f24f4b99c63a02a4a510a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotSpeed: 5
+  Indicator: {fileID: 258473951}
+  IndicatorLine: {fileID: 360562975}
+  cam: {fileID: 1824555465}
+  ActualCam: {fileID: 0}
+  power: {fileID: 0}
+  AngleSlider: {fileID: 0}
+  CameraAngle: {fileID: 0}
+  ShootButton: {fileID: 0}
+  Shots: {fileID: 0}
+  Percentage: {fileID: 0}
+  AngleText: {fileID: 0}
+  Power: 0
+  Offset: {x: 0, y: 0, z: 0}
+  cameraY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1414584473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1726,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9b56b25df07eb448a428aefd13e44ea, type: 3}
+--- !u!4 &1824555465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2499504707863251588, guid: e3a72c8b3d547524296efde0834e068b, type: 3}
+  m_PrefabInstance: {fileID: 1929114541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1929114541
 PrefabInstance:
   m_ObjectHideFlags: 0
