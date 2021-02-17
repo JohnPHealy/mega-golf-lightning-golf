@@ -22,7 +22,11 @@ MonoBehaviour:
   m_Title: Project
   m_RootView: {fileID: 9}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 542}
+=======
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
   m_MinSize: {x: 875, y: 300}
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -79,7 +83,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 1223
+=======
+  controlID: 5574
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
   controlID: 5574
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -107,7 +115,11 @@ MonoBehaviour:
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 83
+=======
+  controlID: 5571
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
   controlID: 5571
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -189,7 +201,11 @@ MonoBehaviour:
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 84
+=======
+  controlID: 5572
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
   controlID: 5572
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -278,6 +294,9 @@ MonoBehaviour:
   - {fileID: 28}
   m_MainToolbar: {fileID: 28}
   m_LastLoadedLayoutName: David
+<<<<<<< HEAD
+>>>>>>> parent of d62c590 (Tutorial n dat)
+=======
 >>>>>>> parent of d62c590 (Tutorial n dat)
 --- !u!114 &11
 MonoBehaviour:
@@ -325,7 +344,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 112
+=======
+  controlID: 5573
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
   controlID: 5573
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -354,7 +377,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 113
+=======
+  controlID: 92
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
   controlID: 92
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -665,6 +692,9 @@ MonoBehaviour:
     m_SelectedIDs: 8c3b0000
     m_LastClickedID: 15244
     m_ExpandedIDs: 000000008c3b000000ca9a3b
+<<<<<<< HEAD
+>>>>>>> parent of d62c590 (Tutorial n dat)
+=======
 >>>>>>> parent of d62c590 (Tutorial n dat)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -694,7 +724,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c4410000
+=======
+    m_ExpandedIDs: 000000008c3b0000
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
     m_ExpandedIDs: 000000008c3b0000
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -726,7 +760,11 @@ MonoBehaviour:
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c62300009e3c000000000000163f0000824400007a440000
+=======
+    m_ExpandedInstanceIDs: c62300009e3c0000
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
     m_ExpandedInstanceIDs: c62300009e3c0000
 >>>>>>> parent of d62c590 (Tutorial n dat)
@@ -786,9 +824,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 0c4e0000
       m_LastClickedID: 0
       m_ExpandedIDs: 345bffff4e5cffff625cffff925effff4262ffff5e63ffffec93ffff3cc0ffff1aeffffffcf5ffff0af9ffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 04c7ffffa0efffff02f1ffff5cf3ffff3cf4ffff3ef4ffff56fbffffe8390000
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -854,9 +898,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -109.68585, y: -67.775505, z: 2.1587563}
     speed: 2
     m_Value: {x: -109.68585, y: -67.775505, z: 2.1587563}
+=======
+    m_Target: {x: -26.20203, y: 6.625741, z: -55.87867}
+    speed: 2
+    m_Value: {x: -26.20203, y: 6.625741, z: -55.87867}
+>>>>>>> parent of d62c590 (Tutorial n dat)
 =======
     m_Target: {x: -26.20203, y: 6.625741, z: -55.87867}
     speed: 2
@@ -909,6 +959,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.23219234, y: -0.66795915, z: 0.2321084, w: 0.66792774}
     speed: 2
     m_Value: {x: 0.23318405, y: -0.66758204, z: 0.23310032, w: 0.66755056}
@@ -917,6 +968,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 94.34554
 =======
+=======
+>>>>>>> parent of d62c590 (Tutorial n dat)
     m_Target: {x: 0, y: -0.7071068, z: -0, w: 0.7071068}
     speed: 2
     m_Value: {x: -0.00000020381931, y: -0.70711607, z: 0.0000011548345, w: 0.7070976}
@@ -924,6 +977,9 @@ MonoBehaviour:
     m_Target: 63.8945
     speed: 2
     m_Value: 63.8945
+<<<<<<< HEAD
+>>>>>>> parent of d62c590 (Tutorial n dat)
+=======
 >>>>>>> parent of d62c590 (Tutorial n dat)
   m_Ortho:
     m_Target: 1
